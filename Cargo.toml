@@ -9,7 +9,10 @@ repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-productivity"
 readme = "README.md"
 
 [dependencies]
-sigmaos-kernel = { version = "0.1", path = "../SigmaOS-kernel" }
 
 [profile.release]
 opt-level = 3
+
+[lib]
+name = "sigmaos_productivity"
+path = "src/lib.rs"
