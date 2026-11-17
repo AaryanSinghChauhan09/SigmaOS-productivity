@@ -3,12 +3,12 @@ name = "SigmaOS-productivity"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "productivity component"
+description = "Productivity component for SigmaOS"
 upstream = []
 
 [contract]
 provides = ["component"]
-depends_on = []
+depends_on = ["SigmaOS-system"]
 
 [maturity]
 status = "Scaffold"
